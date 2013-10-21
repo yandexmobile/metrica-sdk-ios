@@ -8,14 +8,12 @@ Pod::Spec.new do |s|
   	s.license = { :type => 'PROPRIETARY', :file => 'LICENSE.txt' }
   	s.authors      = { "Yury Vasileuski" => "vasileuski@yandex-team.ru", "Andrey Subbotin" => "eploko@yandex-team.ru" }
   	s.platform     = :ios, '5.0'	
-	s.source = { :git => "https://github.com/yandexmobile/metrica-sdk-ios.git" }
-
-
+	s.source = { :git => "https://github.com/yandexmobile/metrica-sdk-ios.git", :tag =>s.version.to_s }
    					
-	s.exclude_files = 'YXMobileMetrica/YandexMobileMetrica/YandexMobileMetrica.h', 'YXMobileMetrica/YandexMobileMetrica/YMMCounter.h', 'YXMobileMetrica/YandexMobileMetrica/YMMVersion.h'
+	s.exclude_files = 'YandexMobileMetrica/YandexMobileMetrica.h', 'YandexMobileMetrica/YMMCounter.h', 'YandexMobileMetrica/YMMVersion.h'
 	s.subspec 'mainheaders' do |smh|
-		smh.source_files = 	'YXMobileMetrica/YandexMobileMetrica/YandexMobileMetrica.h', 'YXMobileMetrica/YandexMobileMetrica/YMMCounter.h',
-							'YXMobileMetrica/YandexMobileMetrica/YMMVersion.h'
+		smh.source_files = 	'YandexMobileMetrica/YandexMobileMetrica.h', 'YandexMobileMetrica/YMMCounter.h',
+							'YandexMobileMetrica/YMMVersion.h'
 		smh.header_mappings_dir = 'YandexMobileMetrica'
 		smh.public_header_files =
 							"**/YandexMobileMetrica.h",
@@ -26,7 +24,7 @@ Pod::Spec.new do |s|
   	s.preserve_paths = 'libProtocolBuffersTouch.a', 'libYandexMobileMetrica.a'
   	s.libraries = 'ProtocolBuffersTouch', 'YandexMobileMetrica', 'z', 'sqlite3' 	
   
-  	s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/YandexMobileMetrica/"', 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers/YXMobileMetrica"' }
+  	s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/YandexMobileMetrica/"', 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers"' }
   			
 	s.dependency 'KSCrash'
    	s.frameworks = 'SystemConfiguration', 'UIKit', 'Foundation', 'CoreTelephony', 'MessageUI'
