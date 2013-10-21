@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   			
 	s.dependency 'KSCrash'
    	s.frameworks = 'SystemConfiguration', 'UIKit', 'Foundation', 'CoreTelephony', 'MessageUI'
-   
+        s.weak_framework = 'AdSupport'    
    	s.requires_arc = true  
    
 
