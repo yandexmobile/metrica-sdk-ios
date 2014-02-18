@@ -123,5 +123,9 @@ typedef enum {
  */
 + (void)setLogLevel:(NSUInteger)level;
 
+/** Set idfa to metrica, if application has access to it. Metrica will use it to calculate device statistics.
+ @param idfa idfa is Apple's identifier for advertising.
+ */
++ (void)setIDFA:(NSString *)idfa;
 
 @end

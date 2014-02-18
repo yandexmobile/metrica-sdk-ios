@@ -9,6 +9,10 @@ Documentation could be found at [metrica official site] [DOCUMENTATION]
 ## Sample project
 Sample project to use is available at [GitHub] [GitHubSAMPLE]
 
+## SDK Version 1.2.3, Changelog
+* Removed all references to idfa (AdSupport.framework) from library
+* Improved library stability
+
 ## SDK Version 1.2, Changelog
 * Reduced size of library by half added to target app
 * Optimised performance up to 30%

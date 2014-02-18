@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "YandexMobileMetrica"
-  s.version = "1.2.0"
+  s.version = "1.2.3"
   s.summary = "This library is designed to be a part of mobile apps and provide app usage stats to Yandex.Metrica"
 
   s.homepage = "http://appmetrica.yandex.com/"
@@ -23,7 +23,6 @@ Pod::Spec.new do |s|
   s.dependency 'FMDB', '2.2.0'
   s.dependency 'protobuf-c', '0.15'
   s.frameworks = 'SystemConfiguration', 'UIKit', 'Foundation', 'CoreTelephony', 'CoreLocation', 'CoreGraphics', 'Security'
-  s.weak_framework = 'AdSupport'
 
   s.requires_arc = true
 end
