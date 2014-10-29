@@ -1,5 +1,5 @@
 /*
- *  YMMCounter.h
+ *  YMMYandexMetrica
  *
  * This file is a part of the Yandex.Metrica for Apps.
  *
@@ -11,48 +11,63 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-extern NSString *const kYMMCounterErrorDomain;
+extern NSString *const kYMMYandexMetricaErrorDomain;
 
 typedef enum {
-	YMMCounterErrorCodeDatabaseError = 0,
-    YMMCounterErrorCodeEventNameTooLong = 1,
-    YMMCounterErrorCodeInvalidName = 2,
-    YMMCounterErrorCodeCrashReportDecoderError = 3,
-    YMMCounterErrorCodeInitializationError = 4,
-    YMMCounterErrorCodeJsonSerializationError = 5
-} YMMCounterErrorCode;
+	YMMYandexMetricaErrorCodeDatabaseError = 0,
+    YMMYandexMetricaErrorCodeInvalidName = 2,
+    YMMYandexMetricaErrorCodeCrashReportDecoderError = 3,
+    YMMYandexMetricaErrorCodeInitializationError = 4,
+    YMMYandexMetricaErrorCodeJsonSerializationError = 5
+} YMMYandexMetricaErrorCode;
 
-@interface YMMCounter : NSObject
+@interface YMMYandexMetrica : NSObject
 
 /** Starting the statistics collection process.
 
  @param apiKey Unique numeric application ID that is issued during ​application registration​ in Metrica.
  */
-+ (void)startWithAPIKey:(NSUInteger)apiKey;
++ (void)startWithAPIKey:(NSString *)apiKey;
 
 /** Sending a custom event.
 
  @param ​message​ Short name or description of the event.
- @param failure Failure contains a description of an error that occurred during message registration. It can take the ​nil​ value.
+ @param onFailure Block to be executed when an error occurres during message registration
+ which is described by NSError block argument.
  @return Result of operation.
  */
-+ (BOOL)reportEvent:(NSString *)message failure:(NSError * __autoreleasing *)failure;
++ (void)reportEvent:(NSString *)message
+          onFailure:(void (^)(NSError *error))onFailure;
+
+/** Sending a custom event with additional parameters.
+
+ @param ​message​ Short name or description of the event.
+ @param params Dictionary of name/value pairs that should be sent to the server.
+ @param onFailure Block to be executed when an error occurres during message registration
+ which is described by NSError block argument.
+ @return Result of operation.
+ */
++ (void)reportEvent:(NSString *)message
+         parameters:(NSDictionary *)params
+          onFailure:(void (^)(NSError *error))onFailure;
 
 /** Sending custom error messages.
 
  @param message​ Short name or description of the error
  @param exception​ Exception contains an ​NSException​ object that must be passed to the server. It can take the ​nil​ value.
- @param ​failure​ Failure contains a description of an error that occurred during message registration. It can take the ​nil​ value.
+ @param ​onFailure​ Block to be executed when an error occurres during message registration
+ which is described by NSError block argument.
  @return Result of the operation.
  */
-+ (BOOL)reportError:(NSString *)message exception:(NSException *)exception failure:(NSError * __autoreleasing *)failure;
++ (void)reportError:(NSString *)message
+          exception:(NSException *)exception
+          onFailure:(void (^)(NSError *error))onFailure;
 
 /** Sending all stored events.
 
  Forces sending all events that have accumulated in storage, without waiting for them to be sent automatically.
- @return Result of operation.
  */
-+ (BOOL)sendEvents;
++ (void)sendEventsBuffer;
 
 /** Starting a new session.
 
@@ -60,10 +75,21 @@ typedef enum {
  */
 + (void)startNewSessionManually;
 
-/** Automatic location detection is unavailable.
+/**
+ Enable/disable location reporting to metrica.
+ If enabled and location set via setLocation: method - that location would be used.
+ If enabled and location is not set via setLocation,
+ but application has appropriate permission - CLLocationManager would be used to acquire location data.
+ @param enabled Flag indicating if reporting location to metrica enabled
+ Enabled by default.
+ */
++ (void)setTrackLocationEnabled:(BOOL)enabled;
++ (BOOL)isTrackLocationEnabled;
 
+
+/** Set location to metrica
+ To enable metrica to use this location locationTrackingEnabled should be 'YES'
  @param location Custom device location to be reported.
- If you want to track device location, set it manually by providing any location.
  */
 + (void)setLocation:(CLLocation *)location;
 
@@ -122,10 +148,5 @@ typedef enum {
  @param level One of ASL logging levels declared in <asl.h>. Enables logging for levels up to the passed value.
  */
 + (void)setLogLevel:(NSUInteger)level;
-
-/** Set idfa to metrica, if application has access to it. Metrica will use it to calculate device statistics.
- @param idfa idfa is Apple's identifier for advertising.
- */
-+ (void)setIDFA:(NSString *)idfa;
 
 @end
