@@ -11,6 +11,10 @@ Sample project to use is available at [GitHub] [GitHubSAMPLE]
 
 ## Changelog
 
+### Version 1.6.1
+
+* Improved campaigns tracking accuracy
+
 ### Version 1.6.0
 * Improved stability and performance
 * Switched to reading [idfa] from AdSupport within library
