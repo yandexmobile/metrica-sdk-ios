@@ -11,6 +11,10 @@ Sample project to use is available at [GitHub] [GitHubSAMPLE]
 
 ## Changelog
 
+### Version 1.6.2
+
+* Fixed crash reporting bugs
+
 ### Version 1.6.1
 
 * Improved campaigns tracking accuracy
