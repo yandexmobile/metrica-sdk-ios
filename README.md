@@ -9,6 +9,15 @@ Documentation could be found at [metrica official site] [DOCUMENTATION]
 ## Sample project
 Sample project to use is available at [GitHub] [GitHubSAMPLE]
 
+## AppStore submit notice
+Starting from version 1.6.0 YandexMetrica became also a tracking instrument and 
+uses Apple idfa to attribute installs. Because of that during submitting your 
+application to the AppStore you will be prompted with three checkboxes to state 
+your intentions for idfa usage.
+As YandexMetrica uses idfa for attributing app installations you need to check 
+second checkbox ( **Attribute this app installation to a previously served 
+advertisement.** ). 
+
 ## Changelog
 
 ### Version 1.6.2
