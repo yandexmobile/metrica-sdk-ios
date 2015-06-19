@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "YandexMobileMetrica"
-  s.version = "1.6.2"
+  s.version = "1.8.2"
   s.summary = "This library is designed to be a part of mobile apps and provide app usage stats to Yandex.Metrica"
 
   s.homepage = "http://appmetrica.yandex.com/"
@@ -11,18 +11,16 @@ Pod::Spec.new do |s|
 
   s.source_files = 'YandexMobileMetrica/**/*.h'
   s.header_mappings_dir = 'YandexMobileMetrica'
-  s.public_header_files = "**/*.h"
+  s.public_header_files = "YandexMobileMetrica/**/*.h"
 
-  s.preserve_paths = 'libYandexMobileMetrica.a'
-  s.libraries = 'YandexMobileMetrica', 'z', 'sqlite3'
-
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/YandexMobileMetrica/"', 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers"' }
+  s.vendored_library = 'libYandexMobileMetrica.a'
+  s.libraries = 'z', 'sqlite3'
 
   s.dependency 'KSCrash/Recording', '~>0.0.3'
   s.dependency 'KSCrash/Reporting/Filters/AppleFmt', '~>0.0.3'
-  s.dependency 'FMDB', '2.2.0'
-  s.dependency 'protobuf-c', '0.15'
-  s.frameworks = 'SystemConfiguration', 'UIKit', 'Foundation', 'CoreTelephony', 'CoreLocation', 'CoreGraphics', 'Security', 'AdSupport'
+  s.dependency 'FMDB', '~> 2.2'
+  s.dependency 'protobuf-c', '~> 1.0.1'
+  s.frameworks = 'SystemConfiguration', 'UIKit', 'Foundation', 'CoreTelephony', 'CoreLocation', 'CoreGraphics', 'AdSupport'
 
   s.requires_arc = true
 end
