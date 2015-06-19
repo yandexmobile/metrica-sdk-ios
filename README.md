@@ -14,11 +14,14 @@ Starting from version 1.6.0 YandexMetrica became also a tracking instrument and
 uses Apple idfa to attribute installs. Because of that during submitting your 
 application to the AppStore you will be prompted with three checkboxes to state 
 your intentions for idfa usage.
-As YandexMetrica uses idfa for attributing app installations you need to check 
-second checkbox ( **Attribute this app installation to a previously served 
-advertisement.** ). 
+As YandexMetrica uses idfa for attributing app installations you need to select **Attribute this app installation to a previously served 
+advertisement**.
 
 ## Changelog
+
+### Version 1.8.2
+
+* Added ability to set crash environment
 
 ### Version 1.6.2
 
