@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "YandexMobileMetrica"
-  s.version = "1.8.2"
+  s.version = "1.8.5"
   s.summary = "This library is designed to be a part of mobile apps and provide app usage stats to Yandex.Metrica"
 
   s.homepage = "http://appmetrica.yandex.com/"

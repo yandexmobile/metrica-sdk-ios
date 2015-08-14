@@ -19,6 +19,10 @@ advertisement**.
 
 ## Changelog
 
+### Version 1.8.5
+
+* Supported iOS 9
+
 ### Version 1.8.2
 
 * Added ability to set crash environment
