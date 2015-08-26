@@ -1,7 +1,7 @@
 /*
  *  YMMVersion.h
  *
- * This file is a part of the Yandex.Metrica for Apps.
+ * This file is a part of the AppMetrica
  *
  * Version for iOS © 2015 YANDEX
  *
@@ -12,10 +12,10 @@
 #ifndef __YMM_VERSION_H__
 #define __YMM_VERSION_H__
 
-#define YMM_VERSION_MAJOR 1
-#define YMM_VERSION_MINOR 8
-#define YMM_VERSION_PATCH 5
+#define YMM_VERSION_MAJOR 2
+#define YMM_VERSION_MINOR 0
+#define YMM_VERSION_PATCH 0
 
-#define YMM_BUILD_NUMBER 3876
+#define YMM_BUILD_NUMBER 3964
 
 #endif // __YMM_VERSION_H__

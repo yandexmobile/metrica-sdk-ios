@@ -1,7 +1,7 @@
 /*
  *  YandexMobileMetrica.h
  *
- * This file is a part of the Yandex.Metrica for Apps.
+ * This file is a part of the AppMetrica
  *
  * Version for iOS © 2015 YANDEX
  *

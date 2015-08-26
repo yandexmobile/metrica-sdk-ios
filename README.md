@@ -19,6 +19,18 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.0.0
+
+* The ApiKey format has been changed. The app ID in a new format is available in the AppMetrica web interface when the app editing mode is engaged.
+* The method of initializing the library in the app has been renamed from [YMMYandexMetrica startWithAPIKey:(NSString *)apiKey]; to [YMMYandexMetrica activateWithApiKey:(NSString *)apiKey];.
+* The session length has been changed. Now it is 10 seconds, by default.
+* The library has been adapted for iOS 9.
+* Improved quality of calculating statistics for app installations and devices identification for tracking.
+* We have significantly improved performance and reduced the power consumption.
+* The obsolete methods have been removed.
+
+For more details see [official doc page](https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/ios-history-docpage/)
+
 ### Version 1.8.5
 
 * Supported iOS 9
