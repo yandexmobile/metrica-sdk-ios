@@ -1,7 +1,7 @@
 /*
- *  YMMYandexMetrica
+ *  YMMYandexMetrica.h
  *
- * This file is a part of the Yandex.Metrica for Apps.
+ * This file is a part of the AppMetrica
  *
  * Version for iOS © 2015 YANDEX
  *
@@ -15,21 +15,19 @@
 
 extern NSString *const kYMMYandexMetricaErrorDomain;
 
-typedef enum {
-	YMMYandexMetricaErrorCodeDatabaseError = 0,
-    YMMYandexMetricaErrorCodeInvalidName = 2,
-    YMMYandexMetricaErrorCodeCrashReportDecoderError = 3,
-    YMMYandexMetricaErrorCodeInitializationError = 4,
-    YMMYandexMetricaErrorCodeJsonSerializationError = 5
-} YMMYandexMetricaErrorCode;
+typedef NS_ENUM(NSInteger, YMMYandexMetricaEventErrorCode) {
+    YMMYandexMetricaEventErrorCodeInitializationError = 1000,
+    YMMYandexMetricaEventErrorCodeInvalidName = 1001,
+    YMMYandexMetricaEventErrorCodeJsonSerializationError = 1002,
+};
 
 @interface YMMYandexMetrica : NSObject
 
 /** Starting the statistics collection process.
 
- @param apiKey Unique numeric application ID that is issued during application registration in Metrica.
+ @param apiKey Application key that is issued during application registration in AppMetrica.
  */
-+ (void)startWithAPIKey:(NSString *)apiKey;
++ (void)activateWithApiKey:(NSString *)apiKey;
 
 /** Reporting custom event.
 
@@ -59,71 +57,31 @@ typedef enum {
           exception:(NSException *)exception
           onFailure:(void (^)(NSError *error))onFailure;
 
-/** Sending all stored events.
-
- Forces sending all events that have accumulated in storage, without waiting for them to be sent automatically.
- */
-+ (void)sendEventsBuffer;
-
-/** Starting a new session.
-
- Use this method to interrupt current session and start a new one.
- */
-+ (void)startNewSessionManually;
-
 /**
- Enable/disable location reporting to Metrica.
+ Enable/disable location reporting to AppMetrica.
  If enabled and location set via setLocation: method - that location would be used.
  If enabled and location is not set via setLocation,
  but application has appropriate permission - CLLocationManager would be used to acquire location data.
  
- @param enabled Flag indicating if reporting location to Metrica enabled
+ @param enabled Flag indicating if reporting location to AppMetrica enabled
  Enabled by default.
  */
 + (void)setTrackLocationEnabled:(BOOL)enabled;
-+ (BOOL)isTrackLocationEnabled;
 
-
-/** Set location to Metrica
- To enable Metrica to use this location trackLocationEnabled should be 'YES'
+/** Set location to AppMetrica
+ To enable AppMetrica to use this location trackLocationEnabled should be 'YES'
  
  @param location Custom device location to be reported.
  */
 + (void)setLocation:(CLLocation *)location;
 
-/** Setting the custom dispatch period.
-
- @param dispatchPeriod Interval in seconds between sending events to the server.
- By default, 90 seconds. Passing 0 seconds prevents library from sending events automatically using timer.
- */
-+ (void)setDispatchPeriod:(NSUInteger)dispatchPeriodSeconds;
-+ (NSUInteger)dispatchPeriod;
-
-/** Setting the maximum number of stored events.
-
- @param maxReportsCount Minimum number of cached events that causes reports to be automatically sent.
- By default, events are sent automatically when there are at least 7 items in the storage.
- Passing 0 value prevents library from sending events automatically upon reaching specified number of events in the storage.
- */
-+ (void)setMaxReportsCount:(NSUInteger)maxReportsCount;
-+ (NSUInteger)maxReportsCount;
-
 /** Setting session timeout (in seconds).
 
  @param sessionTimeoutSeconds Time limit before the application is considered inactive.
- By default, the session times out if the application is in background for 10 minutes.
+ By default, the session times out if the application is in background for 10 seconds.
  Minimum accepted value is 10 seconds. All passed values below 10 seconds automatically become 10 seconds.
  */
 + (void)setSessionTimeout:(NSUInteger)sessionTimeoutSeconds;
-+ (NSUInteger)sessionTimeout;
-
-/** Enabling/disabling sending reports.
-
- @param enabled Boolean value to enable or disable sending reports.
- By default, sending reports is enabled. When disabled, reports about app crashes will still be sent.
- */
-+ (void)setReportsEnabled:(BOOL)enabled;
-+ (BOOL)isReportsEnabled;
 
 /** Tracking app crashes.
 
@@ -132,7 +90,6 @@ typedef enum {
  To disable crash tracking, set the parameter value to enabled=false.
  */
 + (void)setReportCrashesEnabled:(BOOL)enabled;
-+ (BOOL)isReportCrashesEnabled;
 
 /** Setting the arbitrary application version.
 
@@ -141,18 +98,28 @@ typedef enum {
  */
 + (void)setCustomAppVersion:(NSString *)appVersion;
 
-/** Set maximum output log level.
+/** Enable or disable logging.
 
- @param level One of ASL logging levels declared in <asl.h>. Enables logging for levels up to the passed value.
+ @param isEnabled Boolean value to enable or disable logging. By default logging is disabled.
  */
-+ (void)setLogLevel:(NSUInteger)level;
++ (void)setLoggingEnabled:(BOOL)isEnabled;
 
-/** Seting key-value pair to be reported along with crash info.
+/** Setting key-value pair to be reported along with crash info.
     If value is nil previously set key-value is removed, does nothing if key hasn't been added.
 
  @param value The value for key.
  @param key The key for value.
  */
 + (void)setEnvironmentValue:(NSString *)value forKey:(NSString *)key;
+
+/** Retrieves current version of library.
+ */
++ (NSString *)libraryVersion;
+
+@end
+
+@interface YMMYandexMetrica (YMMYandexMetricaDeprecatedOrUnavailable)
+
++ (void)startWithAPIKey:(NSString *)apiKey  __attribute__((unavailable("activateWithApiKey: must be used instead.")));
 
 @end
