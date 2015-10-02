@@ -26,6 +26,8 @@ typedef NS_ENUM(NSInteger, YMMYandexMetricaEventErrorCode) {
 /** Starting the statistics collection process.
 
  @param apiKey Application key that is issued during application registration in AppMetrica.
+ Application key must be a hexadecimal string in format xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
+ The key can be requested or checked at https://appmetrica.yandex.com
  */
 + (void)activateWithApiKey:(NSString *)apiKey;
 
@@ -120,6 +122,8 @@ typedef NS_ENUM(NSInteger, YMMYandexMetricaEventErrorCode) {
 
 @interface YMMYandexMetrica (YMMYandexMetricaDeprecatedOrUnavailable)
 
-+ (void)startWithAPIKey:(NSString *)apiKey  __attribute__((unavailable("activateWithApiKey: must be used instead.")));
++ (void)startWithAPIKey:(NSString *)apiKey
+    __attribute__((unavailable("WARNING: apiKey used in startWithAPIKey isn't compatible with activateWithApiKey:. "
+                               "Use activateWithApiKey: with updated key. More info in activateWithApiKey:'s description")));
 
 @end

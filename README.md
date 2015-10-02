@@ -1,7 +1,7 @@
 # Yandex.Metrica for Apps SDK
 
 ## License
-License agreement on use of Yandex.Metrica for Apps SDK is available at [EULA site] [LICENSE] 
+License agreement on use of Yandex AppMetrica for Apps SDK is available at [EULA site] [LICENSE] 
 
 ## Documentation
 Documentation could be found at [metrica official site] [DOCUMENTATION]
@@ -10,7 +10,7 @@ Documentation could be found at [metrica official site] [DOCUMENTATION]
 Sample project to use is available at [GitHub] [GitHubSAMPLE]
 
 ## AppStore submit notice
-Starting from version 1.6.0 YandexMetrica became also a tracking instrument and 
+Starting from version 1.6.0 Yandex AppMetrica became also a tracking instrument and 
 uses Apple idfa to attribute installs. Because of that during submitting your 
 application to the AppStore you will be prompted with three checkboxes to state 
 your intentions for idfa usage.
@@ -18,6 +18,12 @@ As YandexMetrica uses idfa for attributing app installations you need to select 
 advertisement**.
 
 ## Changelog
+
+### Version 2.1.1
+
+* Added support for extensions.
+* Added support for Bitcode.
+* Improved error messages.
 
 ### Version 2.0.0
 
@@ -82,8 +88,7 @@ For more details see [official doc page](https://tech.yandex.com/metrica-mobile-
 * Extracted ProtobufObjC as an external dependency
 
 
-[LICENSE]: http://legal.yandex.ru/metrica_termsofuse/ "Yandex.Metrica agreement"
-[DOCUMENTATION]: http://api.yandex.com/metrica-mobile-sdk/ "Yandex.Metrica for Apps documentation"
+[LICENSE]: http://legal.yandex.ru/metrica_termsofuse/ "Yandex AppMetrica agreement"
+[DOCUMENTATION]: http://api.yandex.com/metrica-mobile-sdk/ "Yandex AppMetrica for Apps documentation"
 [GitHubSAMPLE]:https://github.com/yandexmobile/metrica-sample-ios/
 [idfa]:https://developer.apple.com/LIBRARY/ios/documentation/AdSupport/Reference/ASIdentifierManager_Ref/index.html#//apple_ref/occ/instp/ASIdentifierManager/advertisingTrackingEnabled
-

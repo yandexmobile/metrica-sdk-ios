@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = "YandexMobileMetrica"
-  s.version = "2.0.0"
-  s.summary = "This library is designed to be a part of mobile apps and provide app usage stats to AppMetrica"
+  s.version = "2.1.1"
+  s.summary = "This library is designed to be a part of mobile apps and provide app usage stats to Yandex AppMetrica"
 
   s.homepage = "http://appmetrica.yandex.com/"
   s.license = { :type => 'PROPRIETARY', :file => 'LICENSE.txt' }
@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.vendored_library = 'libYandexMobileMetrica.a'
   s.libraries = 'z', 'sqlite3'
 
-  s.dependency 'KSCrash/Recording', '~>0.0.4'
-  s.dependency 'KSCrash/Reporting/Filters/AppleFmt', '~>0.0.4'
+  s.dependency 'KSCrash/Recording', '~>0.0.5'
+  s.dependency 'KSCrash/Reporting/Filters/AppleFmt', '~>0.0.5'
   s.dependency 'FMDB', '~> 2.2'
   s.dependency 'protobuf-c', '~> 1.0.1'
   s.frameworks = 'SystemConfiguration', 'UIKit', 'Foundation', 'CoreTelephony', 'CoreLocation', 'CoreGraphics', 'AdSupport'
