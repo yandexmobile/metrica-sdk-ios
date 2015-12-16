@@ -14,10 +14,16 @@ Starting from version 1.6.0 Yandex AppMetrica became also a tracking instrument 
 uses Apple idfa to attribute installs. Because of that during submitting your 
 application to the AppStore you will be prompted with three checkboxes to state 
 your intentions for idfa usage.
-As YandexMetrica uses idfa for attributing app installations you need to select **Attribute this app installation to a previously served 
+As Yandex AppMetrica uses idfa for attributing app installations you need to select **Attribute this app installation to a previously served 
 advertisement**.
 
 ## Changelog
+
+### Version 2.3.0
+
+* Added ability to activate AppMetrica with configuration.
+* Added ability to track preloaded installs.
+* Improved performance and quality of statistics.
 
 ### Version 2.1.1
 
