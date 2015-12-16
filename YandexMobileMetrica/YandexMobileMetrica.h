@@ -11,3 +11,5 @@
 
 #import <YandexMobileMetrica/YMMYandexMetrica.h>
 #import <YandexMobileMetrica/YMMVersion.h>
+#import <YandexMobileMetrica/YMMYandexMetricaConfiguration.h>
+#import <YandexMobileMetrica/YMMYandexMetricaPreloadInfo.h>
