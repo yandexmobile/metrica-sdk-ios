@@ -19,6 +19,13 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.3.1
+
+* AppMetrica now also available as static framework.
+* Removed explicit external dependencies.
+* Improved error messages.
+* Improved performance and quality of statistics.
+
 ### Version 2.3.0
 
 * Added ability to activate AppMetrica with configuration.
