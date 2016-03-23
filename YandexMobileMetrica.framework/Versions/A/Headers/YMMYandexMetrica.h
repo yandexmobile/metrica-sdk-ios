@@ -128,6 +128,18 @@ typedef NS_ENUM(NSInteger, YMMYandexMetricaEventErrorCode) {
  */
 + (NSString *)libraryVersion;
 
+/** Enables AppMetrica's tracking mechanism by providing application's url scheme.
+
+ @param urlScheme Application's deep link scheme. Scheme should be registered in CFBundleURLTypes Info.plist section.
+ */
++ (BOOL)enableTrackingWithURLScheme:(NSURL *)urlScheme NS_EXTENSION_UNAVAILABLE_IOS("") NS_AVAILABLE_IOS(9_0);
+
+/** Reads the URL that has opened the application to search for an AppMetrica deep link.
+
+ @param url URL that has opened the application. URL scheme should be registered beforehand via `enableTrackingWithUrlScheme` method.
+ */
++ (BOOL)handleOpenURL:(NSURL *)url NS_EXTENSION_UNAVAILABLE_IOS("") NS_AVAILABLE_IOS(9_0);
+
 @end
 
 @interface YMMYandexMetrica (YMMYandexMetricaDeprecatedOrUnavailable)

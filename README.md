@@ -19,6 +19,11 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.4.0
+
+* Supported referrer tracking method.
+* Improved performance and quality of statistics.
+
 ### Version 2.3.1
 
 * AppMetrica now also available as static framework.
