@@ -19,6 +19,10 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.4.1
+* Improved performance and quality of statistics.
+
+
 ### Version 2.4.0
 
 * Supported referrer tracking method.
