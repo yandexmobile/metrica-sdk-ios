@@ -57,10 +57,9 @@
 @property (nonatomic, assign) NSUInteger sessionTimeout;
 
 /** Enable/disable tracking app crashes.
- To disable crash tracking, set to false.
 
- By default, reports on application crashes are sent, meaning enabled=true.
- To disable crash tracking, set the parameter value to enabled=false.
+ Enabled by default.
+ To disable crash tracking, set the parameter value to false.
  */
 @property (nonatomic, assign) BOOL reportCrashesEnabled;
 

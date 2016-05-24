@@ -19,6 +19,9 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.5.0
+* Improved performance and quality of statistics.
+
 ### Version 2.4.1
 * Improved performance and quality of statistics.
 
