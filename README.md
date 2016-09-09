@@ -1,7 +1,7 @@
-# Yandex.Metrica for Apps SDK
+# Yandex AppMetrica SDK
 
 ## License
-License agreement on use of Yandex AppMetrica for Apps SDK is available at [EULA site] [LICENSE] 
+License agreement on use of Yandex AppMetrica SDK is available at [EULA site] [LICENSE]
 
 ## Documentation
 Documentation could be found at [metrica official site] [DOCUMENTATION]
@@ -10,14 +10,20 @@ Documentation could be found at [metrica official site] [DOCUMENTATION]
 Sample project to use is available at [GitHub] [GitHubSAMPLE]
 
 ## AppStore submit notice
-Starting from version 1.6.0 Yandex AppMetrica became also a tracking instrument and 
-uses Apple idfa to attribute installs. Because of that during submitting your 
-application to the AppStore you will be prompted with three checkboxes to state 
+Starting from version 1.6.0 Yandex AppMetrica became also a tracking instrument and
+uses Apple idfa to attribute installs. Because of that during submitting your
+application to the AppStore you will be prompted with three checkboxes to state
 your intentions for idfa usage.
-As Yandex AppMetrica uses idfa for attributing app installations you need to select **Attribute this app installation to a previously served 
+As Yandex AppMetrica uses idfa for attributing app installations you need to select **Attribute this app installation to a previously served
 advertisement**.
 
 ## Changelog
+
+### Version 2.5.1
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-2.5.1-ios-ec534922-a996-49c9-adef-96c781d33e07.zip)
+
+* Framework archive moved to the Yandex cloud storage.
+* Fixed [#41](https://github.com/yandexmobile/metrica-sdk-ios/issues/41).
 
 ### Version 2.5.0
 * Improved performance and quality of statistics.
@@ -105,7 +111,7 @@ For more details see [official doc page](https://tech.yandex.com/metrica-mobile-
 * Extracted FMDB as an external dependency
 * Adjusted session length logic
 * Added API for managing library logging
-* Added jailbreak detection 
+* Added jailbreak detection
 * Improved library stability
 
 ### Version 1.0.1
