@@ -4,7 +4,7 @@
 License agreement on use of Yandex AppMetrica SDK is available at [EULA site] [LICENSE]
 
 ## Documentation
-Documentation could be found at [metrica official site] [DOCUMENTATION]
+Documentation could be found at [AppMetrica official site] [DOCUMENTATION]
 
 ## Sample project
 Sample project to use is available at [GitHub] [GitHubSAMPLE]
@@ -19,6 +19,13 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.6.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-2.6.0-ios-962cb138-d9c6-4d0f-8d1d-55fc98d81d1d.zip)
+
+* Improved iOS 10 support.
+* Improved Swift support.
+* Added dynamic framework.
+
 ### Version 2.5.1
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-2.5.1-ios-ec534922-a996-49c9-adef-96c781d33e07.zip)
 
@@ -29,8 +36,8 @@ SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile
 * Improved performance and quality of statistics.
 
 ### Version 2.4.1
-* Improved performance and quality of statistics.
 
+* Improved performance and quality of statistics.
 
 ### Version 2.4.0
 
