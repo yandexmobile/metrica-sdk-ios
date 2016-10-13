@@ -137,6 +137,6 @@ For more details see [official doc page](https://tech.yandex.com/metrica-mobile-
 
 
 [LICENSE]: https://yandex.com/legal/metrica_termsofuse/ "Yandex AppMetrica agreement"
-[DOCUMENTATION]: https://tech.yandex.com/metrica-mobile-sdk/ "Yandex AppMetrica for Apps documentation"
+[DOCUMENTATION]: https://tech.yandex.com/metrica-mobile-sdk/ "Yandex AppMetrica documentation"
 [GitHubSAMPLE]: https://github.com/yandexmobile/metrica-sample-ios/
 [idfa]: https://developer.apple.com/reference/adsupport/asidentifiermanager#//apple_ref/occ/instp/ASIdentifierManager/advertisingTrackingEnabled
