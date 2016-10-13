@@ -19,6 +19,16 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.6.2
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-2.6.2-ios-51ddba1a-89bd-4da8-b4ae-771d60a317f0.zip)
+
+* Improved performance and quality of statistics.
+
+### Version 2.6.1
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-2.6.1-ios-64364d26-6106-4105-9f79-d18478e6e3b8.zip)
+
+* Fixed iOS 6 support.
+
 ### Version 2.6.0
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-2.6.0-ios-962cb138-d9c6-4d0f-8d1d-55fc98d81d1d.zip)
 
@@ -126,7 +136,7 @@ For more details see [official doc page](https://tech.yandex.com/metrica-mobile-
 * Extracted ProtobufObjC as an external dependency
 
 
-[LICENSE]: http://legal.yandex.ru/metrica_termsofuse/ "Yandex AppMetrica agreement"
-[DOCUMENTATION]: http://api.yandex.com/metrica-mobile-sdk/ "Yandex AppMetrica for Apps documentation"
-[GitHubSAMPLE]:https://github.com/yandexmobile/metrica-sample-ios/
-[idfa]:https://developer.apple.com/LIBRARY/ios/documentation/AdSupport/Reference/ASIdentifierManager_Ref/index.html#//apple_ref/occ/instp/ASIdentifierManager/advertisingTrackingEnabled
+[LICENSE]: https://yandex.com/legal/metrica_termsofuse/ "Yandex AppMetrica agreement"
+[DOCUMENTATION]: https://tech.yandex.com/metrica-mobile-sdk/ "Yandex AppMetrica for Apps documentation"
+[GitHubSAMPLE]: https://github.com/yandexmobile/metrica-sample-ios/
+[idfa]: https://developer.apple.com/reference/adsupport/asidentifiermanager#//apple_ref/occ/instp/ASIdentifierManager/advertisingTrackingEnabled
