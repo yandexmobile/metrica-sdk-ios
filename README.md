@@ -19,6 +19,11 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.6.5
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-2.6.5-ios-6c4350a9-024d-45f2-a9e7-253c72f413d0.zip)
+
+* Fixed dynamic framework meta-information.
+
 ### Version 2.6.2
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-2.6.2-ios-51ddba1a-89bd-4da8-b4ae-771d60a317f0.zip)
 
