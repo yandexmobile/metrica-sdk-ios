@@ -19,6 +19,12 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.7.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.7.0-ios-7058b11a-d987-4519-8c64-028c75b67eab.zip)
+
+* Added method to distinguish application updates from new intallations.
+* Supported deeplink tracking.
+
 ### Version 2.6.5
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-2.6.5-ios-6c4350a9-024d-45f2-a9e7-253c72f413d0.zip)
 
