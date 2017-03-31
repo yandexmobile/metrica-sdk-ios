@@ -19,6 +19,13 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.8.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-2.8.0-ios-c96e20e1-c1da-4c59-bc45-87aa1c86169d.zip)
+
+* Fixed version/build number of application in crash reports.
+* Fixed custom location setting.
+* Improved performance and quality of statistics.
+
 ### Version 2.7.0
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.7.0-ios-7058b11a-d987-4519-8c64-028c75b67eab.zip)
 
