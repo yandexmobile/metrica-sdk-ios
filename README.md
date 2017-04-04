@@ -1,13 +1,13 @@
 # Yandex AppMetrica SDK
 
 ## License
-License agreement on use of Yandex AppMetrica SDK is available at [EULA site] [LICENSE]
+License agreement on use of Yandex AppMetrica SDK is available at [EULA site][LICENSE]
 
 ## Documentation
-Documentation could be found at [AppMetrica official site] [DOCUMENTATION]
+Documentation could be found at [AppMetrica official site][DOCUMENTATION]
 
 ## Sample project
-Sample project to use is available at [GitHub] [GitHubSAMPLE]
+Sample project to use is available at [GitHub][GitHubSAMPLE]
 
 ## AppStore submit notice
 Starting from version 1.6.0 Yandex AppMetrica became also a tracking instrument and
