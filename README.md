@@ -19,6 +19,11 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.8.1
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.8.1-ios-e63657db-01b9-4eb0-b8e3-bfdfa3b464e5.zip)
+
+* Improved performance and quality of statistics.
+
 ### Version 2.8.0
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-2.8.0-ios-c96e20e1-c1da-4c59-bc45-87aa1c86169d.zip)
 
