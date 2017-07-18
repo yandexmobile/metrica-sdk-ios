@@ -19,10 +19,14 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.9.0
+* Improved performance and quality of statistics.
+* Added the ability to send statistics using an API key that differs from the app's API key.
+
 ### Version 2.8.3
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-2.8.3-ios-1a1760d0-385c-4f21-a1c5-802d63ee340f.zip)
 
-* Fixed bitcode problems with XCode 8.2.1
+* Fixed bitcode problems with Xcode 8.2.1
 
 ### Version 2.8.1
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.8.1-ios-e63657db-01b9-4eb0-b8e3-bfdfa3b464e5.zip)
