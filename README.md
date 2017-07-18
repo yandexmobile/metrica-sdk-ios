@@ -20,6 +20,8 @@ advertisement**.
 ## Changelog
 
 ### Version 2.9.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.9.0-ios-51230b69-82f2-4c7c-9207-047c7f9b7bee.zip)
+
 * Improved performance and quality of statistics.
 * Added the ability to send statistics using an API key that differs from the app's API key.
 
