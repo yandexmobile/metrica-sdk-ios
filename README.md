@@ -19,6 +19,11 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.9.1
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.9.1-ios-7e6844f1-c0eb-407d-8c6b-3f4a603befc1.zip)
+
+* Added the ability to set referral url.
+
 ### Version 2.9.0
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.9.0-ios-51230b69-82f2-4c7c-9207-047c7f9b7bee.zip)
 
