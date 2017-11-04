@@ -19,6 +19,12 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.9.4
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-2.9.4-ios-0ab49d70-c217-485d-98bd-2b16f2460cb5.zip)
+
+* Fixed possible crashes on simulator.
+* Improved performance and quality of statistics.
+
 ### Version 2.9.1
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.9.1-ios-7e6844f1-c0eb-407d-8c6b-3f4a603befc1.zip)
 
