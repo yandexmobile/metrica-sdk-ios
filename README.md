@@ -19,6 +19,11 @@ advertisement**.
 
 ## Changelog
 
+### Version 2.9.6
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.9.6-ios-79c52048-dc1f-48e1-8a5d-bacb86c7fe6d.zip)
+
+* Improved performance and quality of statistics.
+
 ### Version 2.9.4
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-2.9.4-ios-0ab49d70-c217-485d-98bd-2b16f2460cb5.zip)
 
@@ -181,7 +186,7 @@ For more details see [official doc page](https://tech.yandex.com/metrica-mobile-
 * Extracted ProtobufObjC as an external dependency
 
 
-[LICENSE]: https://yandex.com/legal/metrica_termsofuse/ "Yandex AppMetrica agreement"
+[LICENSE]: https://yandex.com/legal/appmetrica_sdk_agreement/ "Yandex AppMetrica agreement"
 [DOCUMENTATION]: https://tech.yandex.com/metrica-mobile-sdk/ "Yandex AppMetrica documentation"
 [GitHubSAMPLE]: https://github.com/yandexmobile/metrica-sample-ios/
 [idfa]: https://developer.apple.com/reference/adsupport/asidentifiermanager#//apple_ref/occ/instp/ASIdentifierManager/advertisingTrackingEnabled
