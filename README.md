@@ -19,6 +19,17 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.0.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.0.0-ios-332c1d61-4519-46c4-807d-b05be6627a7b.zip)
+
+* Added user profiles.
+* Added revenue tracking.
+* Unified and revised the API.
+* Changed the app version and build number order in crash reports to match the Apple format.
+* Extended logging of events flow.
+* Stopped supporting iOS 6 and iOS 7.
+* Improved performance and quality of statistics.
+
 ### Version 2.9.6
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.9.6-ios-79c52048-dc1f-48e1-8a5d-bacb86c7fe6d.zip)
 
