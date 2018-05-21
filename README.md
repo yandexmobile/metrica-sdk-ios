@@ -19,6 +19,11 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.0.1
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.0.1-ios-d9ec7460-eb93-4258-8d20-d428b0c198be.zip)
+
+* Improved stability and performance.
+
 ### Version 3.0.0
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.0.0-ios-332c1d61-4519-46c4-807d-b05be6627a7b.zip)
 
