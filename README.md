@@ -19,6 +19,12 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.1.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.1.0-ios-b302a933-c848-4fdf-854a-3c9aed804904.zip)
+
+* Improved quality of statistics and attribution.
+* Fixed possible deadlock which affected AppMetrica 3.0.0 and 3.0.1.
+
 ### Version 3.0.1
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.0.1-ios-d9ec7460-eb93-4258-8d20-d428b0c198be.zip)
 
