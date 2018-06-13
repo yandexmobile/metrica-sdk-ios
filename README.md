@@ -19,6 +19,11 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.1.1
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-3.1.1-ios-0a4484fa-4bc3-4679-8064-79543e82a49b.zip)
+
+* Fixed internal SDK data loss problem.
+
 ### Version 3.1.0
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.1.0-ios-b302a933-c848-4fdf-854a-3c9aed804904.zip)
 
