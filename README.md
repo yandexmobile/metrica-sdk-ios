@@ -25,23 +25,19 @@ SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile
 * Improved stability and performance.
 
 ### Version 3.1.1
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-3.1.1-ios-0a4484fa-4bc3-4679-8064-79543e82a49b.zip)
 
 * Fixed internal SDK data loss problem.
 
 ### Version 3.1.0
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.1.0-ios-b302a933-c848-4fdf-854a-3c9aed804904.zip)
 
 * Improved quality of statistics and attribution.
 * Fixed possible deadlock which affected AppMetrica 3.0.0 and 3.0.1.
 
 ### Version 3.0.1
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.0.1-ios-d9ec7460-eb93-4258-8d20-d428b0c198be.zip)
 
 * Improved stability and performance.
 
 ### Version 3.0.0
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.0.0-ios-332c1d61-4519-46c4-807d-b05be6627a7b.zip)
 
 * Added user profiles.
 * Added revenue tracking.
@@ -57,39 +53,32 @@ SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile
 * Improved performance and quality of statistics.
 
 ### Version 2.9.6
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.9.6-ios-79c52048-dc1f-48e1-8a5d-bacb86c7fe6d.zip)
 
 * Improved performance and quality of statistics.
 
 ### Version 2.9.4
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-2.9.4-ios-0ab49d70-c217-485d-98bd-2b16f2460cb5.zip)
 
 * Fixed possible crashes on simulator.
 * Improved performance and quality of statistics.
 
 ### Version 2.9.1
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.9.1-ios-7e6844f1-c0eb-407d-8c6b-3f4a603befc1.zip)
 
 * Added the ability to set referral url.
 
 ### Version 2.9.0
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.9.0-ios-51230b69-82f2-4c7c-9207-047c7f9b7bee.zip)
 
 * Improved performance and quality of statistics.
 * Added the ability to send statistics using an API key that differs from the app's API key.
 
 ### Version 2.8.3
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-2.8.3-ios-1a1760d0-385c-4f21-a1c5-802d63ee340f.zip)
 
 * Fixed bitcode problems with Xcode 8.2.1
 
 ### Version 2.8.1
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.8.1-ios-e63657db-01b9-4eb0-b8e3-bfdfa3b464e5.zip)
 
 * Improved performance and quality of statistics.
 
 ### Version 2.8.0
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-2.8.0-ios-c96e20e1-c1da-4c59-bc45-87aa1c86169d.zip)
 
 * Fixed version/build number of application in crash reports.
 * Fixed custom location setting.
