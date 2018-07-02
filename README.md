@@ -51,6 +51,11 @@ SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile
 * Stopped supporting iOS 6 and iOS 7.
 * Improved performance and quality of statistics.
 
+### Version 2.9.8
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-2.9.8-ios-71d8155b-cd35-4d5b-a382-2e737d3029d4.zip)
+
+* Improved performance and quality of statistics.
+
 ### Version 2.9.6
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-2.9.6-ios-79c52048-dc1f-48e1-8a5d-bacb86c7fe6d.zip)
 
