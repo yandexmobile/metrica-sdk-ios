@@ -19,6 +19,14 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.2.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-3.2.0-ios-01b73b00-e52c-4a1a-94d8-937704818158.zip)
+
+* Added a method to disable statistics sending.
+* Added a method to retrieve the AppMetrica device ID.
+* Added a method to force stored events sending.
+* Improved quality of statistics and attribution.
+
 ### Version 3.1.2
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.1.2-ios-0ed40305-b027-4c82-9401-865906c14d3f.zip)
 
