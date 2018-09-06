@@ -19,6 +19,12 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.3.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.3.0-ios-5cd81fc3-f157-438b-bfd2-5f73229fecbe.zip)
+
+* Improved the API for reporting profiles and revenue.
+* Improved performance and quality of statistics.
+
 ### Version 3.2.0
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-3.2.0-ios-01b73b00-e52c-4a1a-94d8-937704818158.zip)
 
