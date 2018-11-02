@@ -19,6 +19,13 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.4.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.4.0-ios-73e951f2-134a-46a4-953a-7054bf97d1fb.zip)
+
+* Separated the library into two frameworks: core and crash-handling. See documentation for more info.
+* Fixed the sendEventsBuffer method to work correctly in the background.
+* Improved performance and memory usage.
+
 ### Version 3.3.0
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.3.0-ios-5cd81fc3-f157-438b-bfd2-5f73229fecbe.zip)
 
