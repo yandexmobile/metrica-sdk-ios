@@ -19,6 +19,11 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.4.1
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.4.1-ios-17403b29-3ad3-494b-9793-f2c38628edc7.zip)
+
+* Fixed Swift support(#76).
+
 ### Version 3.4.0
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.4.0-ios-73e951f2-134a-46a4-953a-7054bf97d1fb.zip)
 
