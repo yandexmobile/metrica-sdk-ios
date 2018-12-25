@@ -19,6 +19,12 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.5.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-3.5.0-ios-a29e7edc-5396-454c-ac51-32593097e680.zip)
+
+* Added tvOS support (subspecs `Static-TV` and `Dynamic-TV`).
+* Improved performance and quality of statistics.
+
 ### Version 3.4.1
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.4.1-ios-17403b29-3ad3-494b-9793-f2c38628edc7.zip)
 
