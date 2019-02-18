@@ -19,6 +19,13 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.6.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.6.0-ios-702bb3c2-76a5-4b77-9dd3-b743d5996080.zip)
+
+* Fixed possible loss of crash reports on devices with a 32-bit processor.
+* Fixed possible crashes which affected the AppMetrica SDK versions 3.1.0 to 3.5.0.
+* Improved performance and quality of statistics.
+
 ### Version 3.5.0
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-3.5.0-ios-a29e7edc-5396-454c-ac51-32593097e680.zip)
 
