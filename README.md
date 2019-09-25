@@ -19,6 +19,11 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.8.0
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.8.0-ios-4a829c81-8941-4676-9136-48a22f386501.zip)
+
+* Added a command line tool for dSYM uploading.
+
 ### Version 3.7.1
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.7.1-ios-066381b6-39c3-4794-949f-2391e0ea618f.zip)
 
