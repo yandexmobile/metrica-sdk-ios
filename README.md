@@ -19,6 +19,11 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.8.1
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.8.1-ios-05f06e48-1975-4ece-9947-1562868bfc84.zip)
+
+* Fixed an issue with "helper" command line tool in dynamic frameworks
+
 ### Version 3.8.0
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.8.0-ios-4a829c81-8941-4676-9136-48a22f386501.zip)
 
