@@ -19,6 +19,14 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.9.1
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-3.9.1-ios-530161ac-1beb-4f92-bd40-01393915ed52.zip)
+
+* Fixed the reportReferralUrl method. It is no longer deprecated.
+* Fixed getting information about code and subcode for Mach exceptions.
+* Fixed framework for tvOS.
+* Improved stability and performance.
+
 ### Version 3.8.2
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.8.2-ios-fd6bf496-ed60-4d84-978a-a8f9a818b566.zip)
 
@@ -36,6 +44,7 @@ SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile
 
 ### Version 3.7.1
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.7.1-ios-066381b6-39c3-4794-949f-2391e0ea618f.zip)
+
 * Added support of NSDecimalNumber for a price in YMMRevenueInfo.
 * Added the API to control sessions manually (see the sessionsAutoTracking property of YMMYandexMetricaConfiguration).
 * Added the configuration flag to handle activation as a session start (see handleActivationAsSessionStart of YMMYandexMetricaConfiguration).
