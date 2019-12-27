@@ -19,8 +19,13 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.9.2
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.9.2-ios-2a9196d3-c8d5-4db0-bda6-a72beb9d0026.zip)
+
+* Fixed the issue with invalid `appmetrica_device_id` generation.
+* Fixed possible deadlock during activation.
+
 ### Version 3.9.1
-SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-3.9.1-ios-530161ac-1beb-4f92-bd40-01393915ed52.zip)
 
 * Fixed the reportReferralUrl method. It is no longer deprecated.
 * Fixed getting information about code and subcode for Mach exceptions.
