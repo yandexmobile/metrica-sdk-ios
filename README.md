@@ -19,6 +19,16 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.11.1
+SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-3.11.1-ios-2eac1f7f-25f1-4f25-b5c0-5978e4a21eca.zip)
+
+* Added the API to report non-fatals: NSError, custom errors.
+* Added the error environment to be reported with crashes and errors.
+* Added the configuration property `maxReportsInDatabaseCount` to control DB limits.
+* Fixed tvOS support.
+* Added the configuration property `appForKids` for applications from App Store Kids' Category.
+* Improved stability and performance.
+
 ### Version 3.9.4
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-3.9.4-ios-9d093f38-8a48-434a-bc01-5226212f2b07.zip)
 
