@@ -19,6 +19,12 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.12.0
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-3.12.0-ios-d581da9f-e4de-4529-924e-1d1214c09780.zip)
+
+* Added support for e-commerce events.
+
 ### Version 3.11.1
 SDK archive: [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-3.11.1-ios-2eac1f7f-25f1-4f25-b5c0-5978e4a21eca.zip)
 
