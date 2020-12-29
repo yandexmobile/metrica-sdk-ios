@@ -19,6 +19,14 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.14.0
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.14.0-ios-972f25fa-9657-485c-a1a0-c14d2e8f5770.zip)
+
+* Added Swift Package Manager distribution. 
+* Stopped supporting iOS 8. 
+* Fixed sessions binding for crash events.
+
 ### Version 3.12.0
 SDK archive:
 [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-3.12.0-ios-d581da9f-e4de-4529-924e-1d1214c09780.zip)
