@@ -19,6 +19,13 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.14.1
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.14.1-ios-2a54d492-92c0-43d4-a17e-b38e30a6c724.zip)
+
+* Removed `user_target_xcconfig` attribute from Podspec.
+* Minor improvements.
+
 ### Version 3.14.0
 SDK archive:
 [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.14.0-ios-972f25fa-9657-485c-a1a0-c14d2e8f5770.zip)
