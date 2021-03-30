@@ -19,6 +19,13 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.15.0
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.15.0-ios-a8616fa2-25a8-4a2f-8420-83b4cc90b176.zip)
+
+* Added support for attributing installs on devices with iOS 14.5+ using SKAdNetwork. Conversion value transfer will be supported in upcoming updates.
+* Added obtaining data required to attribute installs from Apple Search Ads using AdServices Framework (relevant for devices with iOS 14.3+). Attribution will be implemented server-side and doesn’t require further updates.
+
 ### Version 3.14.1
 SDK archive:
 [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.14.1-ios-2a54d492-92c0-43d4-a17e-b38e30a6c724.zip)

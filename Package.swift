@@ -16,10 +16,10 @@ let package = Package(
     
     targets: [
         .binaryTarget(name: "YandexMobileMetrica",
-                      url: "https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/48248/YandexMobileMetrica-3.14.1-ios-spm-6e041e9d-848f-4e2c-928e-ad89227c69b7.zip",
-                      checksum: "f851afcc3e570272a404b3ac782f5f5be9d1a9fc595f41cfce755a765f229599"),
+                      url: "https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.15.0-ios-spm-05dc9e29-dee8-41c1-8800-5efac63681de.zip",
+                      checksum: "f964085c25434431e8ca399df9ca3139869329415bcb782fa5556c5e755dd6e2"),
         .binaryTarget(name: "YandexMobileMetricaCrashes",
-                      url: "https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetricaCrashes-3.14.1-ios-spm-cff71a09-ff79-4e5f-93cb-1f9fc0588677.zip",
-                      checksum: "fba8a6e43b24197ede43df6a0bbe42839b1c18e5379bfb9cb3ff3adb48a018f7"),
+                      url: "https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetricaCrashes-3.15.0-ios-spm-2bc875d4-800d-40c1-a88b-ab06caed6549.zip",
+                      checksum: "575d1bfb57089502e40ad2d6a5d9a00b8a7272e8ba93ab1b9bc32ab471ba7ee9"),
     ]
 )
