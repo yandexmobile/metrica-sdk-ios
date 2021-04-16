@@ -19,6 +19,12 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.15.1
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.15.1-ios-8f5cb67f-5a16-43a0-b121-e20e39f43f53.zip)
+
+* Improved Apple Search Ads attribution with AdServices framework. Upgrade to this version to preserve Apple Search Ads tracking on iOS 14.5+.
+
 ### Version 3.15.0
 SDK archive:
 [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.15.0-ios-a8616fa2-25a8-4a2f-8420-83b4cc90b176.zip)

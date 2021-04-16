@@ -10,16 +10,16 @@ let package = Package(
     ],
     
     products: [
-        .library(name: "YandexMobileMetrica", targets: ["YandexMobileMetrica"]),
-        .library(name: "YandexMobileMetricaCrashes", targets: ["YandexMobileMetricaCrashes"]),
-    ],
+            .library(name: "YandexMobileMetrica", targets: ["YandexMobileMetrica"]),
+            .library(name: "YandexMobileMetricaCrashes", targets: ["YandexMobileMetricaCrashes"]),
+        ],
     
     targets: [
-        .binaryTarget(name: "YandexMobileMetrica",
-                      url: "https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-3.15.0-ios-spm-05dc9e29-dee8-41c1-8800-5efac63681de.zip",
-                      checksum: "f964085c25434431e8ca399df9ca3139869329415bcb782fa5556c5e755dd6e2"),
-        .binaryTarget(name: "YandexMobileMetricaCrashes",
-                      url: "https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetricaCrashes-3.15.0-ios-spm-2bc875d4-800d-40c1-a88b-ab06caed6549.zip",
-                      checksum: "575d1bfb57089502e40ad2d6a5d9a00b8a7272e8ba93ab1b9bc32ab471ba7ee9"),
-    ]
+            .binaryTarget(name: "YandexMobileMetrica",
+                      url: "https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-3.15.1-ios-spm-c89a5004-0c30-49d9-a81e-606aea8c4daa.zip",
+                      checksum: "adce1c0abed9fcd5ed2b234bcbae834a59248dfbc1e0e422b2c14b70eb55bdfe"),
+            .binaryTarget(name: "YandexMobileMetricaCrashes",
+                      url: "https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetricaCrashes-3.15.1-ios-spm-7c1bc884-de01-43b4-91bc-ec9b63674d34.zip",
+                      checksum: "ac445c257e31e30cc5320122e882c15bfee0f1ae19bddebc666d838b19a3e7b5"),
+        ]
 )
