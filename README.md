@@ -19,6 +19,12 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.16.0
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-3.16.0-ios-ee95b538-61ab-48d3-9a8c-67b01b2c3b01.zip)
+
+* Added `+ initWebViewReporting:onFailure:` method to report events from `WKWebView`.
+
 ### Version 3.15.1
 SDK archive:
 [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.15.1-ios-8f5cb67f-5a16-43a0-b121-e20e39f43f53.zip)
