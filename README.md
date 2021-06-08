@@ -19,6 +19,17 @@ advertisement**.
 
 ## Changelog
 
+### Version 3.17.0
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.17.0-ios-a24417a7-e726-4624-bbb0-83a3862a74a8.zip)
+
+* Added support for iPhone and AppleTV simulators running on Apple Silicon Macs (M1).
+* Fixed potential problem with Main thread checker in WebKit.
+
+#### Notice
+> CocoaPods 1.10 or Carthage 0.38 now required for `.xcframework`.
+> `YandexMobileMetrica/Static-TV` and `YandexMobileMetrica/Dynamic-TV` subspecs are not available anymore. From now use the same subspec for tvOS as for iOS: `YandexMobileMetrica/Static` and `YandexMobileMetrica/Dynamic`.
+
 ### Version 3.16.0
 SDK archive:
 [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/117488/YandexMobileMetrica-3.16.0-ios-ee95b538-61ab-48d3-9a8c-67b01b2c3b01.zip)
