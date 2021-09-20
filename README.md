@@ -19,6 +19,16 @@ advertisement**.
 
 ## Changelog
 
+### Version 4.0.0
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-4.0.0-ios-a3605663-b1ca-4851-b475-9a1074f7bd4d.zip)
+
+* Added  `userProfileID` property to `YMMYandexMetricaConfiguration` for setting User Profile ID during activation.
+* Added `appOpenTrackingEnabled` property to `YMMYandexMetricaConfiguration` property for auto-tracking app openings via deeplink.
+* Added `revenueAutoTrackingEnabled` property to `YMMYandexMetricaConfiguration` for auto-tracking in-app purchases.
+* Added  `userProfileID` property to `YMMReporterConfiguration` for setting User Profile ID during _repoter_ activation.
+* Now you can use `[YMMYandexMetrica setUserProfileID:]` method for setting User Profile ID before activation.
+
 ### Version 3.17.0
 SDK archive:
 [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-3.17.0-ios-a24417a7-e726-4624-bbb0-83a3862a74a8.zip)
