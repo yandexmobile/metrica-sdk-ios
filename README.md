@@ -19,6 +19,15 @@ advertisement**.
 
 ## Changelog
 
+## Version 4.2.0
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-4.2.0-ios-e34502a2-1cdd-4226-b575-86d35844b33c.zip)
+
+* Added API to send crashes from arbitrary plugins: protocols `YMMYandexMetricaPlugins` (to receive the object implementing this protocol invoke method `YMMYandexMetrica.getPluginExtension`), `YMMYandexMetricaPluginReporting` (to receive the object implementing this protocol invoke method `YMMYandexMetricaReporting.getPluginExtension`), as well as classes `YMMPluginErrorDetails`, `YMMStackTraceElement`.
+* Added API for plugins that is required for full SDK functioning in terms of sessions auto-tracking when activated from plugins: `YMMYandexMetricaPlugins.handlePluginInitFinished`.
+* Added the capability to send errors from reporters without main API key activation. In this case, the errors will not contain meta-information retrieved from KSCrash (system info).
+
+
 ### Version 4.0.0
 SDK archive:
 [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-4.0.0-ios-a3605663-b1ca-4851-b475-9a1074f7bd4d.zip)
