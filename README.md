@@ -19,6 +19,12 @@ advertisement**.
 
 ## Changelog
 
+## Version 4.4.0
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/1604631/YandexMobileMetrica-4.4.0-ios-83b36013-be55-45cf-afde-8bbdb08ac25e.zip)
+
+* Added API `reportAdRevenue` to report Impression-Level Revenue Data.
+
 ## Version 4.2.0
 SDK archive:
 [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/50347/YandexMobileMetrica-4.2.0-ios-e34502a2-1cdd-4226-b575-86d35844b33c.zip)
