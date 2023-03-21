@@ -19,6 +19,12 @@ advertisement**.
 
 ## Changelog
 
+## Version 4.5.0
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-4.5.0-ios-b6c71e26-3984-4c27-8d1e-a7b1017d0d9b.zip)
+
+* Fixed `locationServicesEnabled invoked on the main thread` warning on iOS 16.
+
 ## Version 4.4.0
 SDK archive:
 [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/1604631/YandexMobileMetrica-4.4.0-ios-83b36013-be55-45cf-afde-8bbdb08ac25e.zip)
