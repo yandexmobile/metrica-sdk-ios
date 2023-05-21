@@ -19,6 +19,13 @@ advertisement**.
 
 ## Changelog
 
+## Version 4.5.2
+SDK archive:
+[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-4.5.2-ios-d70f8cb3-2746-4c3d-aa5f-dcd6acaaa5d8.zip)
+
+* Fixed `posix_spawn` crash on Xcode with enabled sanitizer.
+
+
 ## Version 4.5.0
 SDK archive:
 [**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/128534/YandexMobileMetrica-4.5.0-ios-b6c71e26-3984-4c27-8d1e-a7b1017d0d9b.zip)
