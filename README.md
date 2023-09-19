@@ -1,3 +1,8 @@
+# 🚀 Project Moved to Open Source! 🚀
+> We're thrilled to announce that AppMetrica SDK is now **open source**! To get the latest updates, contribute, or report issues, please visit our new repository: [AppMetrica SDK on GitHub](https://github.com/appmetrica/appmetrica-sdk-ios).
+
+---
+
 # Yandex AppMetrica SDK
 
 ## License
@@ -10,21 +15,14 @@ Documentation could be found at [AppMetrica official site][DOCUMENTATION]
 Sample project to use is available at [GitHub][GitHubSAMPLE]
 
 ## AppStore submit notice
-Starting from version 1.6.0 Yandex AppMetrica became also a tracking instrument and
-uses Apple idfa to attribute installs. Because of that during submitting your
-application to the AppStore you will be prompted with three checkboxes to state
-your intentions for idfa usage.
-As Yandex AppMetrica uses idfa for attributing app installations you need to select **Attribute this app installation to a previously served
-advertisement**.
+Starting from version 1.6.0, Yandex AppMetrica became also a tracking instrument and uses Apple idfa to attribute installs. Because of that during submitting your application to the AppStore, you will be prompted with three checkboxes to state your intentions for idfa usage.
+As Yandex AppMetrica uses idfa for attributing app installations, you need to select **Attribute this app installation to a previously served advertisement**.
 
 ## Changelog
 
 ## Version 4.5.2
 SDK archive:
-[**download**](https://storage.mds.yandex.net/get-appmetrica-mobile-sdk/175948/YandexMobileMetrica-4.5.2-ios-d70f8cb3-2746-4c3d-aa5f-dcd6acaaa5d8.zip)
-
-* Fixed `posix_spawn` crash on Xcode with enabled sanitizer.
-
+[**download**](https://
 
 ## Version 4.5.0
 SDK archive:
